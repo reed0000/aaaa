@@ -2,22 +2,26 @@
   "name": "aaaa",
   "private": true,
   "scripts": {
-    "dev": "next dev --port=5000",
+    "dev": "next dev --port=5090",
     "build": "next build",
     "start": "next start --port=5000",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^12.0.8-canary.19",
+    "next": "12.0.7",
+    "raw-loader": "^4.0.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-markdown": "^8.0.0",
+    "react-syntax-highlighter": "^15.4.5",
+    "remark-gfm": "^3.0.1",
+    "sharp": "^0.29.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7",
-    "next-swc-win32-x64-msvc": "^0.0.1-security",
     "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.12"
+    "tailwindcss": "^3.0.15"
   }
 }
